@@ -3,7 +3,8 @@ class one
 	{
 		public static void main(String args[])
 			{
-				Scanner s=new Scanner(System.in);
+				Scanner se=new Scanner(System.in);
+				int s=se.nextInt();
 				if(s>0)
 				{
 					System.out.println("positive");
